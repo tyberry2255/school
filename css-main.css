@@ -1,8 +1,17 @@
+#main-body {
+   border: 2px solid rgb(0, 0, 0)
+}
+#main-title {
+   font-size: 50px
+}
+#sidebar {
+   align:left;
+}
+#name+details {
+   
+}
 body {
    background-color:rgb(185, 184, 214);
-}
-.warning {
-   color:rgb(255, 0, 0);
 }
 table {
    background-color:rgb(137, 148, 204)
