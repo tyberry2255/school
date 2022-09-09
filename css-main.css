@@ -15,6 +15,7 @@
 }
 #sidebar {
    text-align: right;
+   float: left;
 }
 .main-body {
    border-style: solid;
