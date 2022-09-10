@@ -13,7 +13,6 @@
     padding: 20px;
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    top: -2px;
  }
  
  .main2-title {
@@ -71,6 +70,6 @@
  }
  
  hr {
-    color: rgb(255, 255, 255);
-    height: 5px;
+    color: rgb(0, 0, 0);
+    height: 20px;
  }
