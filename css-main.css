@@ -1,76 +1,93 @@
 #rhs-logo {
-    border: 2px solid black;
- }
- 
- #main-title {
-    color: white;
-    font-size: 50px;
-    text-align: center;
-    border-style: hidden hidden solid;
-    border-width: 0px 0px 10px 0px;
-    background-color: rgb(0, 0, 255);
-    border-color: rgb(0, 0, 0);
-    padding: 20px;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: -2px;
- }
- 
- .main2-title {
-    font-size: 35px;
- }
- 
- #sidebar {
-    text-align: center;
-    float: right;
-    border: 2px solid black;
-    background-color: rgb(156, 134, 134);
-    padding: 2%;
-    width: 10%
- }
- 
- .main-body {
-    margin-left: 20px;
-    margin-right: 20px;
-    border-style: solid;
-    border-width: 2px;
-    background-color: rgb(194, 194, 214);
-    border-radius: 50px;
-    border-color: black;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    width: 70%;
- }
+   border: 2px solid black;
+}
 
- body {
-    background-color: rgb(0, 77, 153);
-    color: rgb(0, 0, 0);
-    font-family: sans-serif;
- }
- 
- /* unvisited link */
- a:link {
-    text-decoration: none;
- }
- 
- /* visited link */
- a:visited {
-    text-decoration: none;
- }
- 
- /* mouse over link */
- a:hover {
-    text-decoration-line: underline;
- }
- 
- /* selected link */
- a:active {
-    text-decoration-line: underline;
- }
- 
- hr.main-area {
-    background-color: rgb(0, 0, 0);
-    height: 20px;
- }
+#family {
+   text-align: right;
+   float: right;
+}
+
+#main-title {
+   color: rgb(0, 0, 0);
+   font-size: 50px;
+   text-align: center;
+   border-style: hidden hidden solid;
+   border-width: 0px 0px 10px 0px;
+   background-color: rgba(30, 30, 196, 0.596);
+   border-color: rgb(0, 0, 0);
+   padding: 20px;
+   position: -webkit-sticky; /* Safari */
+   position: sticky;
+   top: -2px;
+}
+
+.main2-title {
+   font-size: 35px;
+}
+
+#sidebar {
+   text-align: center;
+   float: right;
+   border: 2px solid black;
+   background-color: rgba(135, 193, 197, 0.753);
+   padding: 2%;
+   width: 10%
+}
+
+.main-body {
+   margin-left: 20px;
+   margin-right: 20px;
+   border-style: solid;
+   border-width: 2px;
+   background-color: rgba(219, 222, 223, 0.705);
+   border-radius: 50px;
+   border-color: black;
+   padding-left: 5%;
+   padding-right: 5%;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   width: 70%;
+}
+
+body {
+   background-color: rgb(0, 77, 153);
+   color: rgb(0, 0, 0);
+   font-family: sans-serif;
+}
+
+/* unvisited link */
+a:link {
+   text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+   text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+   text-decoration-line: underline;
+}
+
+/* selected link */
+a:active {
+   text-decoration-line: underline;
+}
+
+br#top-of-page {
+   position: absolute;
+}
+
+br {
+   clear: right;
+}
+
+hr {
+   background-color: rgb(0, 0, 0);
+   height: 10px;
+}
+
+hr#sidebar-hr {
+   height: 3px;
+}
