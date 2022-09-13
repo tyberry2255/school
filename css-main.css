@@ -26,8 +26,9 @@
 }
 
 #sidebar {
-   text-align: center;
+   position: absolute;
    float: right;
+   text-align: center;
    border: 2px solid black;
    background-color: rgba(135, 193, 197, 0.753);
    padding: 2%;
