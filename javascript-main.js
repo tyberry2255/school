@@ -14,5 +14,5 @@ function mainScript() {
 }
 function button() {
   const elem = document.getElementById("rhs-logo");
-  elem.style.display = inline;
+  elem.style.display = "inline";
 }
