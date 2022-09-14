@@ -1,11 +1,11 @@
 function mainScript() {
   let id = null;
   const elem = document.getElementById("sidebar");   
-  let pos = 316; // top of the sidebar
+  let pos = 201; // top of the sidebar
   id = setInterval(shiftSidebar, 20);
   function shiftSidebar() {
     if (pos >= 1016) {
-      pos = 316;
+      pos = 201;
     } else {
       pos = pos + 10; 
       elem.style.top = pos + "px";  // basically moves the sidebar down
