@@ -7,7 +7,7 @@ function mainScript() {
     if (pos >= 1016) {
       pos = 316;
     } else {
-      pos++; 
+      pos = pos + 10; 
       elem.style.top = pos + "px";  // basically moves the sidebar down
     }
   }
