@@ -1,6 +1,7 @@
+var time = false 
 function mainScript() {
+  const elem = document.getElementById("sidebar");  
   let id = null;
-  const elem = document.getElementById("sidebar");   
   let pos = 201; // top of the sidebar
   id = setInterval(shiftSidebar, 20);
   function shiftSidebar() {
@@ -13,13 +14,13 @@ function mainScript() {
   }
 }
 function button() {
-  const elem = document.getElementById("rhs-logo");
-  if (time == true) {
-    elem.style.display = "none"; // changes it back
-    var time = false;
-  } else {
-    var time = true;
+  const elem = document.getElementById("sidebar");   
+  if (time == false) {
     elem.style.display = "inline"; // changes the rhs logo from hidden to showing
+    time = true;
+  } else {
+    elem.style.display = "none"; // changes it back
+    time = false;
   } 
 }
 function hover() { // when you hover over the button you get this
