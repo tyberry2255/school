@@ -14,7 +14,7 @@ function mainScript() {
   }
 }
 function button() {
-  const elem = document.getElementById("sidebar");   
+  const elem = document.getElementById("rhs-logo");   
   if (time == false) {
     elem.style.display = "inline"; // changes the rhs logo from hidden to showing
     time = true;
